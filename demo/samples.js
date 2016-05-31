@@ -1,6 +1,5 @@
 var iam = require('./../lib/iam');
 
-
 var sampleIam = {
     "Statement": [
         {
@@ -21,26 +20,6 @@ var sampleIam = {
     ]
 };
 
-console.log(JSON.stringify(iam.getActionCriteria('sm:SearchResults', iam.processIamData(sampleIam))));
+var actionCriteria = iam.getActionCriteria('sm:SearchResults', iam.processIamData(sampleIam))
 
-
-/*
-* S3
-*
-*
-*
-*
-*
-* EC2
-*
-*
-* IAM
-*
-*
-*   SmarterServices
-*
-*
-*
-*
-* */
-
+console.log(require('util').inspect(actionCriteria, { depth: null }));
