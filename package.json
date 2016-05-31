@@ -1,5 +1,5 @@
 {
-  "name": "open-iam",
+  "name": "safework-iam",
   "version": "0.0.14",
   "description": "",
   "main": "lib/iam.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SmarterServices/iam.git"
+    "url": "git+https://github.com/safework/safework-iam.git"
   },
   "author": "",
   "license": "GPLv2",
   "bugs": {
-    "url": "https://github.com/SmarterServices/iam/issues"
+    "url": "https://github.com/safework/safework-iam/issues"
   },
-  "homepage": "https://github.com/SmarterServices/iam#readme",
+  "homepage": "https://github.com/safework/safework-iam#readme",
   "dependencies": {
     "lodash": "^3.10.1"
   },
